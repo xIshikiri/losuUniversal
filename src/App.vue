@@ -1,31 +1,74 @@
 <script setup>
   import maszynaVue from './components/maszyna.vue';
   import sectionMachineVue from './components/sectionMachine.vue';
+  import sectionEditVue from './components/sectionEdit.vue';
+  import sectionInfoVue from './components/sectionInfo.vue';
+  import sectionFooterVue from './components/sectionFooter.vue';
 </script>
 <template>
-  <div class="sectionMachine">
-    <sectionMachineVue/>
-  </div>
-  
+  <section class="bodyALL">
+    <div class="sectionMachine">
+      <sectionMachineVue/>
+    </div>
 
-  <section class="sectionEdit">
-    
+    <div class="sectionEdit">
+      <sectionEditVue/>
+    </div>
+
+    <div class="sectionInfo">
+      <sectionInfoVue/>
+    </div>
+
+    <div class="sectionFooter">
+      <sectionFooterVue/>
+    </div>
   </section>
+  
 
 </template>
 <style scoped>
+  .bodyALL{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x:hidden;
+    flex-wrap: wrap;
+  }
   .sectionMachine{
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     background-color: blueviolet;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  .wrapMachine{
-    width: 80vw;
-    height: 70vh;
+  .sectionEdit{
+    width: 100vw;
+    height: 90vh;
     background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sectionInfo{
+    width: 100vw;
+    height: 80vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sectionFooter{
+    width: 100vw;
+    height: 40vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 </style>

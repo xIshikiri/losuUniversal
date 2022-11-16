@@ -8,7 +8,7 @@
 
 <style scoped>
   .lol{
-    background-color: red;
+    background-color: beige;
     width: 150px;
     height: 100px;
     }
