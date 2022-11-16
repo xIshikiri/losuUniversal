@@ -3,15 +3,9 @@
 </script>
 <template>
 
-    <h1>FOOTER</h1>
-    <h1>FOOTER</h1>
-    <maszynaVue/>
-    
-
-    
-    
+    <h1> 2022r. Michał Brzeziński / Bartosz Gapski </h1>
 
 </template>
 <style scoped>
-  
+
 </style>

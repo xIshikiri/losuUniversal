@@ -65,10 +65,9 @@
 
   .sectionFooter{
     width: 100vw;
-    height: 40vh;
+    height: 20vh;
     background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
   }
 </style>
